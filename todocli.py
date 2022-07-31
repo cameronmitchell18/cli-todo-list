@@ -16,4 +16,9 @@ def add(task: str , category: str):
 def delete(position: int):
     typer.echo(f"deleting {position}")
 
+@app.command()
+def update(position: int , task: str = None , category: str = None):
+    typer.echo(f"updating {position}")
 
+if __name__ == "__main__":
+    app()
