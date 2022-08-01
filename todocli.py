@@ -1,5 +1,3 @@
-from asyncio import Task
-from curses import COLORS
 import typer
 from rich.console import Console
 from rich.table import Table
