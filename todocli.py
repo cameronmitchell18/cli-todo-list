@@ -38,7 +38,7 @@ def show():
     tasks = get_all_todos()
     console.print("[bold magenta]Todos[/bold magenta]" "💻")
 
-    table = Table(show_header=True , header_style='bold blue')
+    table = Table(show_header=True , header_style='bold blue' , show_lines = True)
     table.add_column('#' , style='dim' , width=6)
     table.add_column('Todo' , min_width=20)
     table.add_column('Category' , min_width=12 , justify='right')
