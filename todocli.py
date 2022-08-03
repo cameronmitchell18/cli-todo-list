@@ -45,7 +45,7 @@ def show():
     table.add_column('Done' , min_width=12 , justify='right')
 
     def get_category_color(category):
-        COLORS = {'Chores': 'cyan' , 'School': 'red' , 'Job': 'blue' , 'Misc' : 'green'}
+        COLORS = {'Chores': 'cyan' , 'School': 'red' , 'Job': 'blue' , 'Misc' : 'green' , 'Dogs': 'purple'}
         if category in COLORS:
             return COLORS[category]
         return 'white'
